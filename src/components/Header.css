@@ -1,0 +1,61 @@
+header {
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    transition: .5s ease-in-out;
+}
+
+.logoFintech {
+    width: 12rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.list {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+
+/* MEDIA 1440 */
+
+@media only screen and (min-width: 1440px) {
+    header {
+        width: 80%;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .listItem {
+        cursor: pointer;
+        color: #d1c6c6;
+        padding: .5rem;
+        position: relative;
+        /* border: 1px solid red; */
+    }
+
+    .listItem::after {
+        content: '';
+        width: 0;
+        height: 2px;
+        background: linear-gradient(to bottom, #FEBD01, #F4A90A);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transition: all .5s ease-in-out;
+    }
+
+    .listItem:hover::after {
+        width: 100%;
+    }
+}

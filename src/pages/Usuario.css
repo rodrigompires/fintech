@@ -1,0 +1,218 @@
+.userContainer {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../assets/images/screen_4/background.svg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding: 3rem 2rem;
+}
+
+.userPageHeader ul {
+    display: none;
+}
+
+.userSection {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    max-width: 30rem;
+    
+}
+
+.identificationUser h1 {
+    font-size: 1rem;
+    color: #DEDCDC;
+}
+
+.identificationUser p {
+    font-size: .6rem;
+    color: #DEDCDC;
+}
+
+.userSectionValue {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    max-width: 30rem;
+
+}
+
+.userValue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.userValue p {
+    font-size: 1rem;
+    color: #DEDCDC;
+    width: 8rem;
+}
+
+.userTextBalance {
+    font-size: .6rem;
+    color: #DEDCDC;
+}
+
+.boxWidgets {
+    width: 100%;
+    margin-top: 8rem;
+    max-width: 30rem;
+    /* border: 1px solid red; */
+
+}
+
+.gridWidgetsLine_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.widgetDefaultLine_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 4.8rem;
+    border-radius: 5px;
+    background-color: rgba(217 , 217, 217, 20%);
+    border: 1px solid transparent;
+    /* cursor: pointer; */
+}
+
+.widgetDefaultLine_1:hover,
+.widgetDefaultLine_1:focus,
+.widgetDefaultLine_2:hover,
+.widgetDefaultLine_2:focus {
+    outline: 1px solid #F5AC08;
+    transition: all .5s;
+}
+
+.cards {
+    border: 1px solid #F5AC08;
+}
+
+.widgetDefaultLine_1 p {
+    font-size: .6rem;
+    color: #DEDCDC;
+    margin-top: .5rem;
+}
+
+.gridWidgetsLine_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.widgetDefaultLine_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 4.8rem;
+    border-radius: 5px;
+    background-color: rgba(217 , 217, 217, 20%);
+    border: 1px solid transparent;
+    /* cursor: pointer; */
+}
+
+.widgetDefaultLine_2 p {
+    font-size: .6rem;
+    color: #DEDCDC;
+    margin-top: .5rem;
+}
+
+.userFooter {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 4rem;
+    padding: 1rem 2rem;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(217 , 217, 217, 20%);
+    /* max-width: 30rem; */
+}
+
+.userFooter nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.userFooter nav ul li {
+    font-size: .8rem;
+    color: #DEDCDC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    position: relative;
+}
+
+.userFooter nav ul li:hover,
+.userFooter nav ul li:focus {
+    filter: invert(57%) sepia(82%) saturate(591%) hue-rotate(2deg) brightness(105%) contrast(94%);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* MEDIAS */
+
+@media only screen and (min-width: 680px) {
+
+    .widgetDefaultLine_1 {
+        width: 8rem;
+    }
+
+    .widgetDefaultLine_2 {
+        width: 11rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .userFooter {
+        display: none;
+    }
+
+    .userPageHeader ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 4rem;
+        /* border: 1px solid red; */
+    }
+
+    .userPageHeader ul li {
+        display: flex;
+        flex-direction: column;
+        color: #DEDCDC;
+    }
+
+    .userPageHeader ul li:hover {
+        filter: invert(57%) sepia(82%) saturate(591%) hue-rotate(2deg) brightness(105%) contrast(94%);
+        transition: all .3s ease-in-out;
+        /* cursor: pointer; */
+    }
+ 
+
+}
+

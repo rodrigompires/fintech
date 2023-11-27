@@ -1,0 +1,166 @@
+.containerRegister_2 {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../assets/images/screen_2/Background_Cadastro.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 2rem;
+    /* border: 1px solid red; */
+}
+
+
+/* HEADER */
+
+.registerHeader_2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--nunito);
+    color: #DEDCDC;
+    font-weight: 600;
+    /* margin-top: 2rem; */
+    /* border: 1px solid red; */
+}
+
+.titleBox_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.registerHeader_2 h1 {
+    font-size: 1.5rem;
+}
+
+.registerHeader_2 p {
+    font-size: .75rem;
+    text-align: start;
+}
+
+.inputsBox_2 {
+    width: 100%;
+    height: 5.95rem; /*ver se há a necessidade depois */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 6px 11px 8px 11px;
+    margin-top: 2rem;
+}
+
+.inputsBoxLine_2_1 {
+    display: grid;
+    grid-template-columns: 60% 15% 15%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .5rem;
+    /* border: 1px solid red; */
+}
+
+
+.registerCard {
+    /* width: 15.38rem; */
+    width: 100%;
+    max-width: 20rem;
+    height: 10rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 10%);
+    border: 1px solid #4F337E;
+    margin-top: 1rem;
+    position: relative;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+
+.cardLogo {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.iconCard {
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+}
+
+.numberCardValue {
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+    color: #B8B1B1;
+    font-family: var(--dosis);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nameClient {
+    position: absolute;
+    left: 3rem;
+    bottom: 1rem;
+    color: #B8B1B1;
+    font-family: var(--dosis);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+  
+.registerCard.visible {
+    opacity: 1;
+}
+
+  .registerCard2 {
+    /* width: 15.38rem; */
+    width: 100%;
+    max-width: 20rem;
+    height: 10rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 63%);
+    border: 1px solid #909090;
+    margin-top: 1rem;
+    position: relative;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.cardLogo2 {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.iconCard2 {
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+}
+
+.numberCardValue2 {
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+    color: #B8B1B1;
+    font-family: var(--dosis);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nameClient2 {
+    position: absolute;
+    left: 3rem;
+    bottom: 1rem;
+    color: #B8B1B1;
+    font-family: var(--dosis);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.registerCard2.visible {
+    opacity: 1;
+}
