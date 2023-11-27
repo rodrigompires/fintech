@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/fintech/static/css/main.6daf310b.css",
+    "main.js": "/fintech/static/js/main.b82d06ed.js",
+    "static/media/Cartao_1.svg": "/fintech/static/media/Cartao_1.976f596a4eedcaaf3b28e8478debfc3d.svg",
+    "static/media/Cartao_2.svg": "/fintech/static/media/Cartao_2.9a15f4c1f0c340fd08f5237dee757af0.svg",
+    "static/media/background.svg": "/fintech/static/media/background.5d58e02c70461f3d76e2.svg",
+    "static/media/Background.svg": "/fintech/static/media/Background.3ccc26855f2ea814b7d6.svg",
+    "static/media/Background_Cadastro.svg": "/fintech/static/media/Background_Cadastro.8d34a970545119cbc441.svg",
+    "static/media/Editing body text-pana.svg": "/fintech/static/media/Editing body text-pana.3298141220cf86d5d5973fdec656fb82.svg",
+    "static/media/Background_screen_1.svg": "/fintech/static/media/Background_screen_1.00d33820ef4ecab04e7f.svg",
+    "static/media/Logo_Fintech.svg": "/fintech/static/media/Logo_Fintech.0a582bb1984cfc0396d04224c9c62b51.svg",
+    "static/media/Speech to text-pana.svg": "/fintech/static/media/Speech to text-pana.6e886f297edeb796d96bba368cb5c016.svg",
+    "static/media/Logo_Cartao_2.svg": "/fintech/static/media/Logo_Cartao_2.60e9f2dd3f41b34db5f31abde2b320f2.svg",
+    "static/media/Icone_Senha.svg": "/fintech/static/media/Icone_Senha.ff8ce68802d0078e184e8577488eaf90.svg",
+    "static/media/Logo_Google.svg": "/fintech/static/media/Logo_Google.5562a4e4b32de6aa21f3.svg",
+    "static/media/Logo_Apple.svg": "/fintech/static/media/Logo_Apple.aae68ee24a9eb96e251e.svg",
+    "static/media/Icone_Mercados.svg": "/fintech/static/media/Icone_Mercados.a34e75230ae7fcac840ccc9f8d721b7f.svg",
+    "static/media/Icone_Cartao_2.svg": "/fintech/static/media/Icone_Cartao_2.b58aa3856c28fb0d429b3df5b4250f69.svg",
+    "static/media/Icone_Cartao_1.svg": "/fintech/static/media/Icone_Cartao_1.d5937d13b28e6ccb76bb970c2e550d5f.svg",
+    "static/media/Logo_Facebook.svg": "/fintech/static/media/Logo_Facebook.5daaee358b55eed01763.svg",
+    "static/media/Icone_Nome.svg": "/fintech/static/media/Icone_Nome.45934dbb056875098610e5e145627e1b.svg",
+    "static/media/Icone_Extrato.svg": "/fintech/static/media/Icone_Extrato.2c96d9e4206895ab44f03c9f541d4e3f.svg",
+    "static/media/Icone_Email.svg": "/fintech/static/media/Icone_Email.93bf15f23357119c943d1560978a4f60.svg",
+    "index.html": "/fintech/index.html",
+    "static/media/Icone_Cartoes.svg": "/fintech/static/media/Icone_Cartoes.8ea41005edb3f73906c632406d71eb34.svg",
+    "static/media/Icone_Restaurantes.svg": "/fintech/static/media/Icone_Restaurantes.a3667b3d9512df05813d05ed6af2f4a3.svg",
+    "static/media/Icone_Transferir.svg": "/fintech/static/media/Icone_Transferir.7c3a61a9d6087e118c15ae6e470da7b8.svg",
+    "static/media/Logo_Cartao_1.svg": "/fintech/static/media/Logo_Cartao_1.1b1fc495042f0172fa2684326a4dd106.svg",
+    "main.6daf310b.css.map": "/fintech/static/css/main.6daf310b.css.map",
+    "main.b82d06ed.js.map": "/fintech/static/js/main.b82d06ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6daf310b.css",
+    "static/js/main.b82d06ed.js"
+  ]
+}
